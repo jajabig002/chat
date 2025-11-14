@@ -1,0 +1,14 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "build": {
+    "builder": "node",
+    "buildCommand": "npm install"
+  },
+  "start": {
+    "cmd": "node chatting.js",
+    "env": {
+      "PORT": 3000
+    }
+  }
+}
